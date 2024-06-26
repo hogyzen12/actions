@@ -10,7 +10,7 @@ const environment = process.env.ENVIRONMENT || 'development';
 
 const rpcUrl =
   environment === 'production'
-    ? process.env.RPC_URL || clusterApiUrl('mainnet-beta')
+    ? process.env.RPC_URL || clusterApiUrl('https://damp-fabled-panorama.solana-mainnet.quiknode.pro/186133957d30cece76e7cd8b04bce0c5795c164e/')
     : process.env.RPC_URL || clusterApiUrl('devnet');
 
 export const connection = new Connection(rpcUrl);
