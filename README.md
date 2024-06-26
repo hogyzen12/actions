@@ -1,3 +1,12 @@
+Forking the example repo. Donations do not land as there is no prio etc.. out the box
+This repo implements a new donations endpoint for blinks using Jito
+Donations are sent via Jito, and have the built in tip for priority present.
+
+The enhanced util transactions code adds the necessarry instructions to make it a valid jito tx and posts it.
+
+Happy hacking !!
+
+
 # @dialectlabs/actions
 
 This repository contains reference implementations of Solana Actions using [Hono](https://hono.dev/).
